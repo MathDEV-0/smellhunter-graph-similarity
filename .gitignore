@@ -216,3 +216,7 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# output (ignore all files in output directory, but keep the directory and .gitkeep file)
+output/*
+!output/.gitkeep
