@@ -276,11 +276,11 @@ def draw_graph(graph, title):
 
     plt.close()
 
-# for p in PROJECTS:
-#     draw_graph(
-#         visual_graphs[p],
-#         p
-#     )
+for p in PROJECTS:
+    draw_graph(
+        visual_graphs[p],
+        p
+    )
 
 # =========================================================
 # 8. FEATURE SPACE / ADJACENCY MATRIX
