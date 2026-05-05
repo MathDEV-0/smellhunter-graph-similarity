@@ -28,6 +28,12 @@
                                                          rdfs:label "belongsToDomain" .
 
 
+###  http://webprotege.stanford.edu/R8qnVWhkZPLZGPKzGTPsasQ
+<http://webprotege.stanford.edu/R8qnVWhkZPLZGPKzGTPsasQ> rdf:type owl:ObjectProperty ;
+                                                         rdfs:subPropertyOf owl:topObjectProperty ;
+                                                         rdfs:label "hasDocumentationLevel" .
+
+
 ###  http://webprotege.stanford.edu/R8zbnUIy2rbfLJZBVdT6zcr
 <http://webprotege.stanford.edu/R8zbnUIy2rbfLJZBVdT6zcr> rdf:type owl:ObjectProperty ;
                                                          rdfs:subPropertyOf owl:topObjectProperty ;
@@ -68,6 +74,30 @@
                                                          rdfs:label "hasSmell" .
 
 
+###  http://webprotege.stanford.edu/RDj0MsYmP8VFzdFIQxGIFbP
+<http://webprotege.stanford.edu/RDj0MsYmP8VFzdFIQxGIFbP> rdf:type owl:ObjectProperty ;
+                                                         rdfs:subPropertyOf owl:topObjectProperty ;
+                                                         rdfs:label "hasContributorCount" .
+
+
+###  http://webprotege.stanford.edu/RHXr3RwhvlCfKfGnchgPSs
+<http://webprotege.stanford.edu/RHXr3RwhvlCfKfGnchgPSs> rdf:type owl:ObjectProperty ;
+                                                        rdfs:subPropertyOf owl:topObjectProperty ;
+                                                        rdfs:label "followsDevelopmentPractice" .
+
+
+###  http://webprotege.stanford.edu/RVpcQw7wM0bzwu5LQZj3Ta
+<http://webprotege.stanford.edu/RVpcQw7wM0bzwu5LQZj3Ta> rdf:type owl:ObjectProperty ;
+                                                        rdfs:subPropertyOf owl:topObjectProperty ;
+                                                        rdfs:label "hasTestCoverageLevel" .
+
+
+###  http://webprotege.stanford.edu/RbRJ9UAdztPhj1JRi5hiMf
+<http://webprotege.stanford.edu/RbRJ9UAdztPhj1JRi5hiMf> rdf:type owl:ObjectProperty ;
+                                                        rdfs:subPropertyOf owl:topObjectProperty ;
+                                                        rdfs:label "adoptProcess" .
+
+
 ###  http://webprotege.stanford.edu/RytsoqofBS4llxhy2quqzV
 <http://webprotege.stanford.edu/RytsoqofBS4llxhy2quqzV> rdf:type owl:ObjectProperty ;
                                                         rdfs:subPropertyOf <http://webprotege.stanford.edu/R7Rh34mRR5DeB70Y7PcjJPc> ;
@@ -92,15 +122,45 @@
                                                          rdfs:label "Framework" .
 
 
+###  http://webprotege.stanford.edu/R7gBl4iy0mTwaOi6Z8KWasp
+<http://webprotege.stanford.edu/R7gBl4iy0mTwaOi6Z8KWasp> rdf:type owl:Class ;
+                                                         rdfs:subClassOf <http://webprotege.stanford.edu/RCfGwvUkqGKyrLmYFaRP1Zc> ;
+                                                         rdfs:label "TeamSizeCategory" .
+
+
 ###  http://webprotege.stanford.edu/R8KEaRcTJtTc4OWD0jlZ6ls
 <http://webprotege.stanford.edu/R8KEaRcTJtTc4OWD0jlZ6ls> rdf:type owl:Class ;
                                                          rdfs:subClassOf <http://webprotege.stanford.edu/RCfGwvUkqGKyrLmYFaRP1Zc> ;
                                                          rdfs:label "Database" .
 
 
+###  http://webprotege.stanford.edu/R96abplEnGxSHkqik2Aiaog
+<http://webprotege.stanford.edu/R96abplEnGxSHkqik2Aiaog> rdf:type owl:Class ;
+                                                         rdfs:subClassOf <http://webprotege.stanford.edu/RCfGwvUkqGKyrLmYFaRP1Zc> ;
+                                                         rdfs:label "Process" .
+
+
+###  http://webprotege.stanford.edu/R9cG8xtoBEykQTBOJMo8lSr
+<http://webprotege.stanford.edu/R9cG8xtoBEykQTBOJMo8lSr> rdf:type owl:Class ;
+                                                         rdfs:subClassOf <http://webprotege.stanford.edu/RCfGwvUkqGKyrLmYFaRP1Zc> ;
+                                                         rdfs:label "TestCoverageLevel" .
+
+
 ###  http://webprotege.stanford.edu/RCfGwvUkqGKyrLmYFaRP1Zc
 <http://webprotege.stanford.edu/RCfGwvUkqGKyrLmYFaRP1Zc> rdf:type owl:Class ;
                                                          rdfs:label "Project" .
+
+
+###  http://webprotege.stanford.edu/RCr2B9mHRbDZFIxVZKrXRnH
+<http://webprotege.stanford.edu/RCr2B9mHRbDZFIxVZKrXRnH> rdf:type owl:Class ;
+                                                         rdfs:subClassOf <http://webprotege.stanford.edu/RCfGwvUkqGKyrLmYFaRP1Zc> ;
+                                                         rdfs:label "Documentation" .
+
+
+###  http://webprotege.stanford.edu/RDDTLLYLhy5gQGkomCVAlas
+<http://webprotege.stanford.edu/RDDTLLYLhy5gQGkomCVAlas> rdf:type owl:Class ;
+                                                         rdfs:subClassOf <http://webprotege.stanford.edu/RCfGwvUkqGKyrLmYFaRP1Zc> ;
+                                                         rdfs:label "DevelopmentPractice" .
 
 
 ###  http://webprotege.stanford.edu/RH5qiEAiyF3eCsxbdivP2O
@@ -144,6 +204,7 @@
                                                                  <http://webprotege.stanford.edu/RCfGwvUkqGKyrLmYFaRP1Zc> ;
                                                         <http://webprotege.stanford.edu/R7Rh34mRR5DeB70Y7PcjJPc> <http://webprotege.stanford.edu/R703I6lBlgyR7g0cm4d57KC> ;
                                                         <http://webprotege.stanford.edu/R7VRCQecz4CiZIyUmTqWgM1> <http://webprotege.stanford.edu/R7mDQvirLsYUbz4i8WVJafM> ;
+                                                        <http://webprotege.stanford.edu/R8qnVWhkZPLZGPKzGTPsasQ> <http://webprotege.stanford.edu/RRXfdmoPPeFE9bOoSXFaoc> ;
                                                         <http://webprotege.stanford.edu/R8zbnUIy2rbfLJZBVdT6zcr> <http://webprotege.stanford.edu/RCEvw5PuqjdlBa8Jz8V0z8U> ;
                                                         <http://webprotege.stanford.edu/R9iId1BZSFgwEghmDfjFH1i> <http://webprotege.stanford.edu/R1auPp8QekRP5A4oxz8hmu> ,
                                                                                                                  <http://webprotege.stanford.edu/R5uqtfJV7qUVZlFKoJOZmu> ,
@@ -153,6 +214,10 @@
                                                         <http://webprotege.stanford.edu/RDJpW6ARPfSpK2A8OggrSne> <http://webprotege.stanford.edu/R7xyR2SEaLPXCVC93oCt8l> ;
                                                         <http://webprotege.stanford.edu/RDQl7T7hUZnng6xGpjdnkby> <http://webprotege.stanford.edu/R8JCyVbDKtc0gGQypfRXlIq> ,
                                                                                                                  <http://webprotege.stanford.edu/RCvk70caGpZLNHrDfeZs2Pu> ;
+                                                        <http://webprotege.stanford.edu/RDj0MsYmP8VFzdFIQxGIFbP> <http://webprotege.stanford.edu/R9OX2Eqp1YsEghQeeY3dbSG> ;
+                                                        <http://webprotege.stanford.edu/RHXr3RwhvlCfKfGnchgPSs> <http://webprotege.stanford.edu/RCQoLHpmAVRYF72B9G8lh4C> ,
+                                                                                                                <http://webprotege.stanford.edu/RCmGWJkTT9Pg82woPoFoWrd> ;
+                                                        <http://webprotege.stanford.edu/RVpcQw7wM0bzwu5LQZj3Ta> <http://webprotege.stanford.edu/ReQSf7ydXjl41yHOyEuuao> ;
                                                         rdfs:label "ProjectA" .
 
 
@@ -167,11 +232,16 @@
                                                                 <http://webprotege.stanford.edu/RCfGwvUkqGKyrLmYFaRP1Zc> ;
                                                        <http://webprotege.stanford.edu/R7Rh34mRR5DeB70Y7PcjJPc> <http://webprotege.stanford.edu/RBZt7V5yoKun8rappOIOAC7> ;
                                                        <http://webprotege.stanford.edu/R7VRCQecz4CiZIyUmTqWgM1> <http://webprotege.stanford.edu/RgtOaIQsmmN07tVT7sEA2x> ;
+                                                       <http://webprotege.stanford.edu/R8qnVWhkZPLZGPKzGTPsasQ> <http://webprotege.stanford.edu/RN61BzEN53KnV9xQu3v78h> ;
                                                        <http://webprotege.stanford.edu/R8zbnUIy2rbfLJZBVdT6zcr> <http://webprotege.stanford.edu/RCEvw5PuqjdlBa8Jz8V0z8U> ;
                                                        <http://webprotege.stanford.edu/R9iId1BZSFgwEghmDfjFH1i> <http://webprotege.stanford.edu/RCPekI7V1eVHJUTxqGyp0JL> ;
                                                        <http://webprotege.stanford.edu/RCCHjtWmqvj9khRAewPdu66> <http://webprotege.stanford.edu/R62V9kNMKzDZHg5NMuDKux> ;
                                                        <http://webprotege.stanford.edu/RDJpW6ARPfSpK2A8OggrSne> <http://webprotege.stanford.edu/RB1GbRoPm8bsq8zZuYSVB0I> ;
                                                        <http://webprotege.stanford.edu/RDQl7T7hUZnng6xGpjdnkby> <http://webprotege.stanford.edu/RCIqAORLaKCM3lCz1MTdX1D> ;
+                                                       <http://webprotege.stanford.edu/RDj0MsYmP8VFzdFIQxGIFbP> <http://webprotege.stanford.edu/Rhe0rilg3mi2Yqvu74NhlJ> ;
+                                                       <http://webprotege.stanford.edu/RHXr3RwhvlCfKfGnchgPSs> <http://webprotege.stanford.edu/R7z1OP2TwzXbfTEaYeFfcZa> ,
+                                                                                                               <http://webprotege.stanford.edu/RCQoLHpmAVRYF72B9G8lh4C> ;
+                                                       <http://webprotege.stanford.edu/RVpcQw7wM0bzwu5LQZj3Ta> <http://webprotege.stanford.edu/RQonpBRFx95Mex2duufP71> ;
                                                        rdfs:label "ProjectC" .
 
 
@@ -429,11 +499,16 @@
                                                                   <http://webprotege.stanford.edu/RCfGwvUkqGKyrLmYFaRP1Zc> ;
                                                          <http://webprotege.stanford.edu/R7Rh34mRR5DeB70Y7PcjJPc> <http://webprotege.stanford.edu/RDHhFKYQ0Gt5A9Fd1Ddv8y6> ;
                                                          <http://webprotege.stanford.edu/R7VRCQecz4CiZIyUmTqWgM1> <http://webprotege.stanford.edu/R8e16nDPQUIedsrdh8VTjbr> ;
+                                                         <http://webprotege.stanford.edu/R8qnVWhkZPLZGPKzGTPsasQ> <http://webprotege.stanford.edu/R9G2aaY9rQYOxb40Jge7iMN> ;
                                                          <http://webprotege.stanford.edu/R8zbnUIy2rbfLJZBVdT6zcr> <http://webprotege.stanford.edu/RPAwPrDUcIym8quKLbtf1U> ;
                                                          <http://webprotege.stanford.edu/R9iId1BZSFgwEghmDfjFH1i> <http://webprotege.stanford.edu/R5uqtfJV7qUVZlFKoJOZmu> ;
                                                          <http://webprotege.stanford.edu/RCCHjtWmqvj9khRAewPdu66> <http://webprotege.stanford.edu/R8wQXOAzEq2itIYYjlbu29h> ;
                                                          <http://webprotege.stanford.edu/RDJpW6ARPfSpK2A8OggrSne> <http://webprotege.stanford.edu/RBrdYEILAVNdFC3VJcmkWRu> ;
                                                          <http://webprotege.stanford.edu/RDQl7T7hUZnng6xGpjdnkby> <http://webprotege.stanford.edu/RXcOuUV8ojYujHRXweQGzz> ;
+                                                         <http://webprotege.stanford.edu/RDj0MsYmP8VFzdFIQxGIFbP> <http://webprotege.stanford.edu/R88h5ykUJDmrIcVZGL3GDAX> ;
+                                                         <http://webprotege.stanford.edu/RHXr3RwhvlCfKfGnchgPSs> <http://webprotege.stanford.edu/RDqsMewr2UUt0IAAjrhpKB7> ,
+                                                                                                                 <http://webprotege.stanford.edu/RnZvjxIbFNDKzGvqUOWEAd> ;
+                                                         <http://webprotege.stanford.edu/RVpcQw7wM0bzwu5LQZj3Ta> <http://webprotege.stanford.edu/R8WESGneOYlmg3lDoPE6t3y> ;
                                                          rdfs:label "ProjectB" .
 
 
@@ -461,6 +536,12 @@
                                                          rdfs:label "TimescaleDB" .
 
 
+###  http://webprotege.stanford.edu/R7z1OP2TwzXbfTEaYeFfcZa
+<http://webprotege.stanford.edu/R7z1OP2TwzXbfTEaYeFfcZa> rdf:type owl:NamedIndividual ,
+                                                                  <http://webprotege.stanford.edu/RDDTLLYLhy5gQGkomCVAlas> ;
+                                                         rdfs:label "CI_CD" .
+
+
 ###  http://webprotege.stanford.edu/R7z77AoC3byv4PJ0vgDcSYz
 <http://webprotege.stanford.edu/R7z77AoC3byv4PJ0vgDcSYz> rdf:type owl:NamedIndividual ,
                                                                   <http://webprotege.stanford.edu/RH5qiEAiyF3eCsxbdivP2O> ;
@@ -471,6 +552,12 @@
 <http://webprotege.stanford.edu/R836NyM1nPajssRYIoMKwax> rdf:type owl:NamedIndividual ,
                                                                   <http://webprotege.stanford.edu/R8KEaRcTJtTc4OWD0jlZ6ls> ;
                                                          rdfs:label "Cassandra" .
+
+
+###  http://webprotege.stanford.edu/R85llC6qrqZoFpMvpuug9yR
+<http://webprotege.stanford.edu/R85llC6qrqZoFpMvpuug9yR> rdf:type owl:NamedIndividual ,
+                                                                  <http://webprotege.stanford.edu/R7gBl4iy0mTwaOi6Z8KWasp> ;
+                                                         rdfs:label "SoloDeveloper (1 contributor)" .
 
 
 ###  http://webprotege.stanford.edu/R85zOqO9vqUBJt4yy3dhYXx
@@ -495,6 +582,12 @@
 <http://webprotege.stanford.edu/R88dckeJcrG8tZvuVjuA6vV> rdf:type owl:NamedIndividual ,
                                                                   <http://webprotege.stanford.edu/RNqnKEdDNue28rcVYy8Vgx> ;
                                                          rdfs:label "TravisCI" .
+
+
+###  http://webprotege.stanford.edu/R88h5ykUJDmrIcVZGL3GDAX
+<http://webprotege.stanford.edu/R88h5ykUJDmrIcVZGL3GDAX> rdf:type owl:NamedIndividual ,
+                                                                  <http://webprotege.stanford.edu/R7gBl4iy0mTwaOi6Z8KWasp> ;
+                                                         rdfs:label "SmallTeam (2–5 contributors)" .
 
 
 ###  http://webprotege.stanford.edu/R88tm62Lf61JKiYkBq9Ybcs
@@ -583,6 +676,12 @@
                                                          rdfs:label "ArangoDB" .
 
 
+###  http://webprotege.stanford.edu/R8WESGneOYlmg3lDoPE6t3y
+<http://webprotege.stanford.edu/R8WESGneOYlmg3lDoPE6t3y> rdf:type owl:NamedIndividual ,
+                                                                  <http://webprotege.stanford.edu/R9cG8xtoBEykQTBOJMo8lSr> ;
+                                                         rdfs:label "MediumCoverage" .
+
+
 ###  http://webprotege.stanford.edu/R8YreKV8aNALmAA0sBGrczg
 <http://webprotege.stanford.edu/R8YreKV8aNALmAA0sBGrczg> rdf:type owl:NamedIndividual ,
                                                                   <http://webprotege.stanford.edu/RQL7QozuZRb916A8EP2xdX> ;
@@ -605,6 +704,12 @@
 <http://webprotege.stanford.edu/R8e16nDPQUIedsrdh8VTjbr> rdf:type owl:NamedIndividual ,
                                                                   <http://webprotege.stanford.edu/RQL7QozuZRb916A8EP2xdX> ;
                                                          rdfs:label "Finance" .
+
+
+###  http://webprotege.stanford.edu/R8eKvbHu3BesQk3wbSy7SMk
+<http://webprotege.stanford.edu/R8eKvbHu3BesQk3wbSy7SMk> rdf:type owl:NamedIndividual ,
+                                                                  <http://webprotege.stanford.edu/R9cG8xtoBEykQTBOJMo8lSr> ;
+                                                         rdfs:label "NoCoverage" .
 
 
 ###  http://webprotege.stanford.edu/R8ggkqO1xDWBFIn4KclHbH0
@@ -693,10 +798,22 @@
                                                          rdfs:label "DataCentricArchitecture" .
 
 
+###  http://webprotege.stanford.edu/R9AXjrbMzqkbUFA2kBxu9Bp
+<http://webprotege.stanford.edu/R9AXjrbMzqkbUFA2kBxu9Bp> rdf:type owl:NamedIndividual ,
+                                                                  <http://webprotege.stanford.edu/RDDTLLYLhy5gQGkomCVAlas> ;
+                                                         rdfs:label "RefactoringPractice" .
+
+
 ###  http://webprotege.stanford.edu/R9F6RZjERLtNMGEwvGI4QBg
 <http://webprotege.stanford.edu/R9F6RZjERLtNMGEwvGI4QBg> rdf:type owl:NamedIndividual ,
                                                                   <http://webprotege.stanford.edu/RQL7QozuZRb916A8EP2xdX> ;
                                                          rdfs:label "LegalTech" .
+
+
+###  http://webprotege.stanford.edu/R9G2aaY9rQYOxb40Jge7iMN
+<http://webprotege.stanford.edu/R9G2aaY9rQYOxb40Jge7iMN> rdf:type owl:NamedIndividual ,
+                                                                  <http://webprotege.stanford.edu/RCr2B9mHRbDZFIxVZKrXRnH> ;
+                                                         rdfs:label "LowDocumentation" .
 
 
 ###  http://webprotege.stanford.edu/R9GJDWJc9rHovXqhx2eZ3kJ
@@ -741,6 +858,12 @@
                                                                   <http://webprotege.stanford.edu/R7Tz3RKIxXKpgzcQblI50w7> ;
                                                          <http://webprotege.stanford.edu/RytsoqofBS4llxhy2quqzV> <http://webprotege.stanford.edu/RB1GbRoPm8bsq8zZuYSVB0I> ;
                                                          rdfs:label "Electron" .
+
+
+###  http://webprotege.stanford.edu/R9OX2Eqp1YsEghQeeY3dbSG
+<http://webprotege.stanford.edu/R9OX2Eqp1YsEghQeeY3dbSG> rdf:type owl:NamedIndividual ,
+                                                                  <http://webprotege.stanford.edu/R7gBl4iy0mTwaOi6Z8KWasp> ;
+                                                         rdfs:label "EnterpriseScaleTeam (51+ contributors)" .
 
 
 ###  http://webprotege.stanford.edu/R9Oa1s25RB6kH8eKJkBENHf
@@ -792,6 +915,12 @@
                                                                   <http://webprotege.stanford.edu/R7Tz3RKIxXKpgzcQblI50w7> ;
                                                          <http://webprotege.stanford.edu/RytsoqofBS4llxhy2quqzV> <http://webprotege.stanford.edu/R7xyR2SEaLPXCVC93oCt8l> ;
                                                          rdfs:label "Micronaut" .
+
+
+###  http://webprotege.stanford.edu/R9abxQRSBwAIK94G9fKQ94X
+<http://webprotege.stanford.edu/R9abxQRSBwAIK94G9fKQ94X> rdf:type owl:NamedIndividual ,
+                                                                  <http://webprotege.stanford.edu/RDDTLLYLhy5gQGkomCVAlas> ;
+                                                         rdfs:label "Kanban" .
 
 
 ###  http://webprotege.stanford.edu/R9cD2rtLjwtNPMEKPZzF1qR
@@ -873,6 +1002,17 @@
 <http://webprotege.stanford.edu/R9uNdE6SFhhA3slJuybOprZ> rdf:type owl:NamedIndividual ,
                                                                   <http://webprotege.stanford.edu/RH5qiEAiyF3eCsxbdivP2O> ;
                                                          rdfs:label "SagaPattern" .
+
+
+###  http://webprotege.stanford.edu/R9walgFb9nrJuYBGgD8yMDM
+<http://webprotege.stanford.edu/R9walgFb9nrJuYBGgD8yMDM> rdf:type owl:NamedIndividual ,
+                                                                  <http://webprotege.stanford.edu/RCfGwvUkqGKyrLmYFaRP1Zc> ;
+                                                         <http://webprotege.stanford.edu/R7Rh34mRR5DeB70Y7PcjJPc> <http://webprotege.stanford.edu/R703I6lBlgyR7g0cm4d57KC> ;
+                                                         <http://webprotege.stanford.edu/R7VRCQecz4CiZIyUmTqWgM1> <http://webprotege.stanford.edu/R8e16nDPQUIedsrdh8VTjbr> ;
+                                                         <http://webprotege.stanford.edu/R9iId1BZSFgwEghmDfjFH1i> <http://webprotege.stanford.edu/R7L9dc6NqJOaMtPYhOyj88m> ;
+                                                         <http://webprotege.stanford.edu/RCCHjtWmqvj9khRAewPdu66> <http://webprotege.stanford.edu/R8wQXOAzEq2itIYYjlbu29h> ;
+                                                         <http://webprotege.stanford.edu/RDJpW6ARPfSpK2A8OggrSne> <http://webprotege.stanford.edu/R7xyR2SEaLPXCVC93oCt8l> ;
+                                                         rdfs:label "ProjectClone1" .
 
 
 ###  http://webprotege.stanford.edu/R9xTUw4MwfdgsUo1jEUPD40
@@ -997,6 +1137,12 @@
 <http://webprotege.stanford.edu/RBaGIqqA3RxYIjXF9qDsHuS> rdf:type owl:NamedIndividual ,
                                                                   <http://webprotege.stanford.edu/RH5qiEAiyF3eCsxbdivP2O> ;
                                                          rdfs:label "ServiceDiscovery" .
+
+
+###  http://webprotege.stanford.edu/RBayM6caJ0GDLblIDEiMNoA
+<http://webprotege.stanford.edu/RBayM6caJ0GDLblIDEiMNoA> rdf:type owl:NamedIndividual ,
+                                                                  <http://webprotege.stanford.edu/RCr2B9mHRbDZFIxVZKrXRnH> ;
+                                                         rdfs:label "MediumDocumentation" .
 
 
 ###  http://webprotege.stanford.edu/RBbXVHIUPXnjempnOxAzwKn
@@ -1144,6 +1290,12 @@
                                                          rdfs:label "Logistics" .
 
 
+###  http://webprotege.stanford.edu/RCPNGTSFmrswrKzBHRq5tcu
+<http://webprotege.stanford.edu/RCPNGTSFmrswrKzBHRq5tcu> rdf:type owl:NamedIndividual ,
+                                                                  <http://webprotege.stanford.edu/RCr2B9mHRbDZFIxVZKrXRnH> ;
+                                                         rdfs:label "NoDocumentation" .
+
+
 ###  http://webprotege.stanford.edu/RCPekI7V1eVHJUTxqGyp0JL
 <http://webprotege.stanford.edu/RCPekI7V1eVHJUTxqGyp0JL> rdf:type owl:NamedIndividual ,
                                                                   <http://webprotege.stanford.edu/R7Tz3RKIxXKpgzcQblI50w7> ;
@@ -1155,6 +1307,12 @@
 <http://webprotege.stanford.edu/RCQhavVpaH1JeJJ8wSfLqIJ> rdf:type owl:NamedIndividual ,
                                                                   <http://webprotege.stanford.edu/R0YEA2qpr7JVamgDfNn1l9> ;
                                                          rdfs:label "R" .
+
+
+###  http://webprotege.stanford.edu/RCQoLHpmAVRYF72B9G8lh4C
+<http://webprotege.stanford.edu/RCQoLHpmAVRYF72B9G8lh4C> rdf:type owl:NamedIndividual ,
+                                                                  <http://webprotege.stanford.edu/RDDTLLYLhy5gQGkomCVAlas> ;
+                                                         rdfs:label "Scrum" .
 
 
 ###  http://webprotege.stanford.edu/RCRB1PLgKVClRyDwqCXdXWf
@@ -1212,6 +1370,12 @@
                                                          rdfs:label "Tourism" .
 
 
+###  http://webprotege.stanford.edu/RCmGWJkTT9Pg82woPoFoWrd
+<http://webprotege.stanford.edu/RCmGWJkTT9Pg82woPoFoWrd> rdf:type owl:NamedIndividual ,
+                                                                  <http://webprotege.stanford.edu/RDDTLLYLhy5gQGkomCVAlas> ;
+                                                         rdfs:label "CodeReview" .
+
+
 ###  http://webprotege.stanford.edu/RCtqS1v7YlPcDl4jzWGvzjE
 <http://webprotege.stanford.edu/RCtqS1v7YlPcDl4jzWGvzjE> rdf:type owl:NamedIndividual ,
                                                                   <http://webprotege.stanford.edu/R8KEaRcTJtTc4OWD0jlZ6ls> ;
@@ -1230,6 +1394,12 @@
                                                                   <http://webprotege.stanford.edu/RNqnKEdDNue28rcVYy8Vgx> ;
                                                          <http://webprotege.stanford.edu/RytsoqofBS4llxhy2quqzV> <http://webprotege.stanford.edu/RB1GbRoPm8bsq8zZuYSVB0I> ;
                                                          rdfs:label "Cypress" .
+
+
+###  http://webprotege.stanford.edu/RD1NyCT9MjG2UBQbEDXrlcy
+<http://webprotege.stanford.edu/RD1NyCT9MjG2UBQbEDXrlcy> rdf:type owl:NamedIndividual ,
+                                                                  <http://webprotege.stanford.edu/RDDTLLYLhy5gQGkomCVAlas> ;
+                                                         rdfs:label "ContinuousDelivery" .
 
 
 ###  http://webprotege.stanford.edu/RD3b6ZOmDGkXnmuEL8ai4by
@@ -1351,6 +1521,18 @@
                                                          rdfs:label "ParallelInheritanceHierarchies" .
 
 
+###  http://webprotege.stanford.edu/RDhIuFouzCMtrITcaqy0gJL
+<http://webprotege.stanford.edu/RDhIuFouzCMtrITcaqy0gJL> rdf:type owl:NamedIndividual ,
+                                                                  <http://webprotege.stanford.edu/R7gBl4iy0mTwaOi6Z8KWasp> ;
+                                                         rdfs:label "LargeTeam (16–50 contributors)" .
+
+
+###  http://webprotege.stanford.edu/RDlFQDIuWLe994jsvDfSft3
+<http://webprotege.stanford.edu/RDlFQDIuWLe994jsvDfSft3> rdf:type owl:NamedIndividual ,
+                                                                  <http://webprotege.stanford.edu/R9cG8xtoBEykQTBOJMo8lSr> ;
+                                                         rdfs:label "LowCoverage" .
+
+
 ###  http://webprotege.stanford.edu/RDlQ4fcxepTEfN2Wbj573AG
 <http://webprotege.stanford.edu/RDlQ4fcxepTEfN2Wbj573AG> rdf:type owl:NamedIndividual ,
                                                                   <http://webprotege.stanford.edu/R7Tz3RKIxXKpgzcQblI50w7> ;
@@ -1381,6 +1563,12 @@
 <http://webprotege.stanford.edu/RDqH5yNsK1wky04j9v8yABT> rdf:type owl:NamedIndividual ,
                                                                   <http://webprotege.stanford.edu/RQL7QozuZRb916A8EP2xdX> ;
                                                          rdfs:label "Automotive" .
+
+
+###  http://webprotege.stanford.edu/RDqsMewr2UUt0IAAjrhpKB7
+<http://webprotege.stanford.edu/RDqsMewr2UUt0IAAjrhpKB7> rdf:type owl:NamedIndividual ,
+                                                                  <http://webprotege.stanford.edu/RDDTLLYLhy5gQGkomCVAlas> ;
+                                                         rdfs:label "StaticAnalysis" .
 
 
 ###  http://webprotege.stanford.edu/RDsxpqppbWcxbulAFYcCKP2
@@ -1437,6 +1625,12 @@
                                                         rdfs:label "GitHub" .
 
 
+###  http://webprotege.stanford.edu/REz7Tlhn41F8G0ncppr2lH
+<http://webprotege.stanford.edu/REz7Tlhn41F8G0ncppr2lH> rdf:type owl:NamedIndividual ,
+                                                                 <http://webprotege.stanford.edu/RDDTLLYLhy5gQGkomCVAlas> ;
+                                                        rdfs:label "TDD" .
+
+
 ###  http://webprotege.stanford.edu/RGUHhkY7Z3moJFR4RKexyf
 <http://webprotege.stanford.edu/RGUHhkY7Z3moJFR4RKexyf> rdf:type owl:NamedIndividual ,
                                                                  <http://webprotege.stanford.edu/RH5qiEAiyF3eCsxbdivP2O> ;
@@ -1468,6 +1662,17 @@
                                                         rdfs:label "RealEstate" .
 
 
+###  http://webprotege.stanford.edu/RLRxCiRewoOZxZGvCabL5m
+<http://webprotege.stanford.edu/RLRxCiRewoOZxZGvCabL5m> rdf:type owl:NamedIndividual ,
+                                                                 <http://webprotege.stanford.edu/RCfGwvUkqGKyrLmYFaRP1Zc> ;
+                                                        <http://webprotege.stanford.edu/R7Rh34mRR5DeB70Y7PcjJPc> <http://webprotege.stanford.edu/R703I6lBlgyR7g0cm4d57KC> ;
+                                                        <http://webprotege.stanford.edu/R7VRCQecz4CiZIyUmTqWgM1> <http://webprotege.stanford.edu/R8e16nDPQUIedsrdh8VTjbr> ;
+                                                        <http://webprotege.stanford.edu/R9iId1BZSFgwEghmDfjFH1i> <http://webprotege.stanford.edu/R7L9dc6NqJOaMtPYhOyj88m> ;
+                                                        <http://webprotege.stanford.edu/RCCHjtWmqvj9khRAewPdu66> <http://webprotege.stanford.edu/R8wQXOAzEq2itIYYjlbu29h> ;
+                                                        <http://webprotege.stanford.edu/RDJpW6ARPfSpK2A8OggrSne> <http://webprotege.stanford.edu/R7xyR2SEaLPXCVC93oCt8l> ;
+                                                        rdfs:label "ProjectClone2" .
+
+
 ###  http://webprotege.stanford.edu/RM7Qujwy7pjj52JlkQbfn5
 <http://webprotege.stanford.edu/RM7Qujwy7pjj52JlkQbfn5> rdf:type owl:NamedIndividual ,
                                                                  <http://webprotege.stanford.edu/Rj0Y2nas1DnveM4QgHfzbX> ;
@@ -1484,6 +1689,12 @@
 <http://webprotege.stanford.edu/RMyOosXBRrFci7TaEaGamN> rdf:type owl:NamedIndividual ,
                                                                  <http://webprotege.stanford.edu/RNqnKEdDNue28rcVYy8Vgx> ;
                                                         rdfs:label "ApacheAnt" .
+
+
+###  http://webprotege.stanford.edu/RN61BzEN53KnV9xQu3v78h
+<http://webprotege.stanford.edu/RN61BzEN53KnV9xQu3v78h> rdf:type owl:NamedIndividual ,
+                                                                 <http://webprotege.stanford.edu/RCr2B9mHRbDZFIxVZKrXRnH> ;
+                                                        rdfs:label "HighDocumentation" .
 
 
 ###  http://webprotege.stanford.edu/RNEQZhpNUTnKcC6MusUEoM
@@ -1515,6 +1726,24 @@
 <http://webprotege.stanford.edu/RQ7zVWHIEFO8Nu4xot9xQk> rdf:type owl:NamedIndividual ,
                                                                  <http://webprotege.stanford.edu/RH5qiEAiyF3eCsxbdivP2O> ;
                                                         rdfs:label "CleanArchitecture" .
+
+
+###  http://webprotege.stanford.edu/RQMaaqiiZhPc3Z0Iek4kBB
+<http://webprotege.stanford.edu/RQMaaqiiZhPc3Z0Iek4kBB> rdf:type owl:NamedIndividual ,
+                                                                 <http://webprotege.stanford.edu/RDDTLLYLhy5gQGkomCVAlas> ;
+                                                        rdfs:label "PairProgramming" .
+
+
+###  http://webprotege.stanford.edu/RQonpBRFx95Mex2duufP71
+<http://webprotege.stanford.edu/RQonpBRFx95Mex2duufP71> rdf:type owl:NamedIndividual ,
+                                                                 <http://webprotege.stanford.edu/R9cG8xtoBEykQTBOJMo8lSr> ;
+                                                        rdfs:label "HighCoverage" .
+
+
+###  http://webprotege.stanford.edu/RRXfdmoPPeFE9bOoSXFaoc
+<http://webprotege.stanford.edu/RRXfdmoPPeFE9bOoSXFaoc> rdf:type owl:NamedIndividual ,
+                                                                 <http://webprotege.stanford.edu/RCr2B9mHRbDZFIxVZKrXRnH> ;
+                                                        rdfs:label "ComprehensiveDocumentation" .
 
 
 ###  http://webprotege.stanford.edu/RSMqoZeiL2vnSi0Mhqul1F
@@ -1560,6 +1789,12 @@
                                                         rdfs:label "Julia" .
 
 
+###  http://webprotege.stanford.edu/RXKUb9HUkF5eaL8PFxHuSc
+<http://webprotege.stanford.edu/RXKUb9HUkF5eaL8PFxHuSc> rdf:type owl:NamedIndividual ,
+                                                                 <http://webprotege.stanford.edu/R9cG8xtoBEykQTBOJMo8lSr> ;
+                                                        rdfs:label "FullCoverage" .
+
+
 ###  http://webprotege.stanford.edu/RXcOuUV8ojYujHRXweQGzz
 <http://webprotege.stanford.edu/RXcOuUV8ojYujHRXweQGzz> rdf:type owl:NamedIndividual ,
                                                                  <http://webprotege.stanford.edu/Rj0Y2nas1DnveM4QgHfzbX> ;
@@ -1595,6 +1830,12 @@
 <http://webprotege.stanford.edu/RdtU3jLOhwLzKbeO410LNo> rdf:type owl:NamedIndividual ,
                                                                  <http://webprotege.stanford.edu/RH5qiEAiyF3eCsxbdivP2O> ;
                                                         rdfs:label "MessageBusArchitecture" .
+
+
+###  http://webprotege.stanford.edu/ReQSf7ydXjl41yHOyEuuao
+<http://webprotege.stanford.edu/ReQSf7ydXjl41yHOyEuuao> rdf:type owl:NamedIndividual ,
+                                                                 <http://webprotege.stanford.edu/R9cG8xtoBEykQTBOJMo8lSr> ;
+                                                        rdfs:label "VeryHighCoverage" .
 
 
 ###  http://webprotege.stanford.edu/Ref2TV6kmGckv7cBkkGbEZ
@@ -1658,6 +1899,12 @@
                                                         rdfs:label "TerraformCloud" .
 
 
+###  http://webprotege.stanford.edu/Rhe0rilg3mi2Yqvu74NhlJ
+<http://webprotege.stanford.edu/Rhe0rilg3mi2Yqvu74NhlJ> rdf:type owl:NamedIndividual ,
+                                                                 <http://webprotege.stanford.edu/R7gBl4iy0mTwaOi6Z8KWasp> ;
+                                                        rdfs:label "MediumTeam (6–15 contributors)" .
+
+
 ###  http://webprotege.stanford.edu/RixmSVw66ZHaIWX5TLay2P
 <http://webprotege.stanford.edu/RixmSVw66ZHaIWX5TLay2P> rdf:type owl:NamedIndividual ,
                                                                  <http://webprotege.stanford.edu/RH5qiEAiyF3eCsxbdivP2O> ;
@@ -1710,6 +1957,25 @@
 <http://webprotege.stanford.edu/Rln5CiEayIeQDaihJwmU49> rdf:type owl:NamedIndividual ,
                                                                  <http://webprotege.stanford.edu/R8KEaRcTJtTc4OWD0jlZ6ls> ;
                                                         rdfs:label "Greenplum" .
+
+
+###  http://webprotege.stanford.edu/RnZvjxIbFNDKzGvqUOWEAd
+<http://webprotege.stanford.edu/RnZvjxIbFNDKzGvqUOWEAd> rdf:type owl:NamedIndividual ,
+                                                                 <http://webprotege.stanford.edu/RDDTLLYLhy5gQGkomCVAlas> ;
+                                                        rdfs:label "Agile" .
+
+
+###  http://webprotege.stanford.edu/RndIifJaPZxR6YZezEit1Y
+<http://webprotege.stanford.edu/RndIifJaPZxR6YZezEit1Y> rdf:type owl:NamedIndividual ,
+                                                                 <http://webprotege.stanford.edu/RCfGwvUkqGKyrLmYFaRP1Zc> ;
+                                                        <http://webprotege.stanford.edu/R7Rh34mRR5DeB70Y7PcjJPc> <http://webprotege.stanford.edu/Rjpb0NSHAKGk1WNAp3tFTb> ;
+                                                        <http://webprotege.stanford.edu/R7VRCQecz4CiZIyUmTqWgM1> <http://webprotege.stanford.edu/R7mDQvirLsYUbz4i8WVJafM> ;
+                                                        <http://webprotege.stanford.edu/R8zbnUIy2rbfLJZBVdT6zcr> <http://webprotege.stanford.edu/RCEvw5PuqjdlBa8Jz8V0z8U> ;
+                                                        <http://webprotege.stanford.edu/R9iId1BZSFgwEghmDfjFH1i> <http://webprotege.stanford.edu/R5uqtfJV7qUVZlFKoJOZmu> ,
+                                                                                                                 <http://webprotege.stanford.edu/R8E7iEuDeLFZ9BBsnoBDawp> ;
+                                                        <http://webprotege.stanford.edu/RCCHjtWmqvj9khRAewPdu66> <http://webprotege.stanford.edu/RjRefAtbzoQr8XiSaFBbZs> ;
+                                                        <http://webprotege.stanford.edu/RDJpW6ARPfSpK2A8OggrSne> <http://webprotege.stanford.edu/R7xyR2SEaLPXCVC93oCt8l> ;
+                                                        rdfs:label "ProjectD" .
 
 
 ###  http://webprotege.stanford.edu/RodSWJN0ntKO6RPQZJsTFz
